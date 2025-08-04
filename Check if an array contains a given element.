@@ -1,4 +1,7 @@
 // Check if an array contains a given element.
+public class Check{
+    public static void main(String[] args){
+
         int [] arr={10,20,30,40,50};
         int target=30;
         int flag=0;
@@ -13,3 +16,5 @@
         }else{
             System.out.println("the element "+ target+" is not found");
         }
+    }
+}
