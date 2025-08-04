@@ -1,5 +1,5 @@
 // Check if an array contains a given element.
-        /*int [] arr={10,20,30,40,50};
+        int [] arr={10,20,30,40,50};
         int target=30;
         int flag=0;
         for(int i=0;i<arr.length;i++){
@@ -13,4 +13,3 @@
         }else{
             System.out.println("the element "+ target+" is not found");
         }
-         */
