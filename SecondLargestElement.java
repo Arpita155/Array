@@ -3,7 +3,7 @@ package Arrays_String.ArrayPdfQuestion;
 public class SecondLargestElement {
     public static void main(String[] args) {
 
-        //Q7. Find the second largest element in an array.
+        //Q. Find the second largest element in an array.
         //Approach -1  ---> it is much better because time complexity is less O(n)
         int []arr ={8,1,2,9,3,6,4,7,6,10};
         int max1=arr[0];
@@ -41,3 +41,4 @@ public class SecondLargestElement {
         */
     }
 }
+
