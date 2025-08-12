@@ -1,4 +1,5 @@
 package Arrays_String.ArrayPdfQuestion;
+import java.util.Arrays;
 
 public class SecondLargestElement {
     public static void main(String[] args) {
@@ -20,8 +21,14 @@ public class SecondLargestElement {
         }
         System.out.println("\nsecond largest element in the array = "+max2);
 
-
-        //Approach -2 --->the time complexity of this approach is O(n^2)
+        //Approach -2
+        /*int []arr ={8,1,2,9,3,6,4,7,6,10};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+        System.out.println(arr[arr.length-2]);
+        */
+        
+        //Approach -3 --->the time complexity of this approach is O(n^2)
         /*int []arr ={8,1,2,9,3,6,4,7,6,10,11,1,4,12,10};
         int t;
         for(int i=0;i<arr.length;i++){
@@ -41,4 +48,5 @@ public class SecondLargestElement {
         */
     }
 }
+
 
