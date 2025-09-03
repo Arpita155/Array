@@ -14,6 +14,9 @@ public class SecondLargestElement {
                 max2=max1;
                 max1=arr[i];
             }
+            else if(arr[i]>max2 && arr[i]!=0){
+                max2=arr[i];
+            }
         }
         System.out.print("The array is: ");
         for(int a:arr){
@@ -48,5 +51,6 @@ public class SecondLargestElement {
         */
     }
 }
+
 
 
