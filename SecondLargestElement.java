@@ -7,14 +7,14 @@ public class SecondLargestElement {
         //Q. Find the second largest element in an array.
         //Approach -1  ---> it is much better because time complexity is less O(n)
         int []arr ={8,1,2,9,3,6,4,7,6,10};
-        int max1=arr[0];
-        int max2=arr[0];
+        int max1=Integer.MIN_VALUE;
+        int max2=Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
             if(arr[i]>max1){
                 max2=max1;
                 max1=arr[i];
             }
-            else if(arr[i]>max2 && arr[i]!=0){
+            else if(arr[i]>max2 && arr[i]<max1){
                 max2=arr[i];
             }
         }
@@ -51,6 +51,7 @@ public class SecondLargestElement {
         */
     }
 }
+
 
 
 
